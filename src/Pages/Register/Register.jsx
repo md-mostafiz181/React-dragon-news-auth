@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
+import Navbar from "../Shared/Navbar/Navbar";
 
 
 const Register = () => {
@@ -25,7 +26,7 @@ const Register = () => {
     }
     return (
         <div>
-            
+            <Navbar></Navbar>
             <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="w-full max-w-lg bg-white p-8 rounded-lg shadow-md">
         <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">Please Register</h2>
